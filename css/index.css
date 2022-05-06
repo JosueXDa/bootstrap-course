@@ -1,0 +1,69 @@
+.text-platzi{
+    color: #97c93e !important;
+}
+.btn-platzi{
+    background-color: #97c93e !important;
+    color: white;
+}
+.btn-platzi:hover{
+    background-color: #759c2e !important;
+}
+#footer{
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#header img{
+    width: 80px;
+}
+/* .navbar-brand{
+    position: absolute !important;
+}
+#boton{
+    position: relative;
+    left: 90%;
+} */
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+#carousel .overlay .container .row #los{
+    color: white;
+    
+}
+#carousel .overlay .row{
+    align-items: center;
+    height: 100%;
+}
+#carousel .overlay .container{
+    height: 100%;
+}
+#navbarSupportedContent{
+    width: max-content;
+}
+#place-time img{
+    max-width: 100%;
+}
+#place-time{
+    background-color: rgb(3,37,41);
+    color: white;
+}
+#hono-conf{
+    align-self: center;
+}
